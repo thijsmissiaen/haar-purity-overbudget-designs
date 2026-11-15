@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Overbudget Haar-Purity Subsystem Designs Beyond the Quadratic Threshold"
+message: "If you use this manuscript or exact-arithmetic verification suite, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Missiaen
+    given-names: Thijs
+    orcid: "https://orcid.org/0009-0007-3678-0810"
+    affiliation: "Independent Researcher, Bruges, Belgium"
+    email: "thijs.missiaen@gmail.com"
+date-released: "2026-11-15"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/thijsmissiaen/haar-purity-overbudget-designs"
+abstract: >-
+  For an even number n = 2k of d-dimensional quantum subsystems, this work
+  resolves the extremal geometry of the complex-Haar subsystem-purity variance
+  in the overbudget regime m > n across arbitrary cut budgets 1 <= m <= M_n
+  and all integer local dimensions d >= 2 via the harmonic analysis of the
+  folded Johnson association scheme J_bar(2k, k).
+keywords:
+  - Haar-random states
+  - subsystem purity
+  - folded Johnson scheme
+  - Delsarte linear programming
+  - Witt Steiner system S(5,6,12)
+  - supersaturated designs
+  - exact arithmetic verification
+references:
+  - type: article
+    authors:
+      - family-names: Shiroshita
+        given-names: Ryosuke
+    title: "Exact balanced subsystem designs for Haar-purity fluctuations"
+    year: 2026
+    doi: "10.5281/zenodo.22773593"

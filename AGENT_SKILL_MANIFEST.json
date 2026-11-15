@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "package_name": "haar-purity-overbudget-designs",
+  "title": "Overbudget Haar-Purity Subsystem Designs Beyond the Quadratic Threshold",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thijs Missiaen",
+    "orcid": "https://orcid.org/0009-0007-3678-0810",
+    "affiliation": "Independent Researcher, Bruges, Belgium",
+    "email": "thijs.missiaen@gmail.com"
+  },
+  "license": "MIT",
+  "artifacts": {
+    "manuscript_tex": "paper/overbudget_haar_designs.tex",
+    "manuscript_pdf": "paper/overbudget_haar_designs.pdf",
+    "manuscript_pages": 11,
+    "bibliography": "paper/references.bib",
+    "skill_markdown": ".agents/skills/overbudget-haar-designs/SKILL.md",
+    "verification_script": "scripts/verify_overbudget_designs.py",
+    "certificate_data": "scripts/certificates_data.json",
+    "verified_results": "scripts/verified_results.json",
+    "figure_generator": "scripts/generate_figures.py",
+    "figures": [
+      "paper/figures/fig1_es2_vs_haar_n12.pdf",
+      "paper/figures/fig2_asymptotic_collapse.pdf"
+    ]
+  },
+  "knowledge_graph": {
+    "canonical_object": {
+      "scheme": "Folded Johnson association scheme J_bar(2k, k)",
+      "size": "M_n = (1/2) * binom(2k, k)",
+      "overlap_discrepancy": "g_ab = 4 * |A_a intersect A_b| - n in [-n, n]",
+      "haar_kernel": "h_{n,d}(g) = d^((n-g)/2) + d^((n+g)/2)",
+      "objective": "S_{n,d}(F) = sum_{a<b} h_{n,d}(g_ab), quadratic proxy Q(F) = sum_{a<b} g_ab^2"
+    },
+    "theorems": [
+      {
+        "id": "thm:separation",
+        "label": "Theorem 1",
+        "summary": "Exact alphabet dichotomy: E(s^2) and Haar optimization coincide identically for n in {6,8,10} (<=2 off-diagonal |g| values) and diverge strictly for every even n >= 12, witnessed uniformly across all integers d >= 2 at n=12 (m in {20,40,50,60,140,220}) and n=14 (m in {40,80,140})."
+      },
+      {
+        "id": "thm:spectral",
+        "label": "Theorem 2",
+        "summary": "Closed-form folded Johnson eigenvalue formula Lambda_i(n,d) = sum_{r=i}^k (d^2 - 1)^r * binom(k-i, k-r) * binom(2k-r-i, k-r) with strict monotonicity Lambda_0 > Lambda_2 > ... > Lambda_{2*floor(k/2)} > 0 and exact recovery of the E(s^2) quadratic floor Q(F) >= n^2/(2(n-1)) * m * (m - n + 1) from Q_2(delta)."
+      },
+      {
+        "id": "thm:witt",
+        "label": "Theorem 3",
+        "summary": "At n=12, Delsarte LP gives c_8(F) >= max(0, m(m-66)/22) with equality iff Pi_2 1_F = Pi_4 1_F = 0; S(5,6,12)/Z_2 uniquely achieves m=66, and explicit 2-class and 3-class dual polynomials prove dimension-uniform global optimality across all integers d >= 2 at m in {11,22,55,66,132,330,396,462}."
+      },
+      {
+        "id": "thm:asymptotic",
+        "label": "Theorem 4",
+        "summary": "Parseval row-sum identity R_{n,d} = (1/(2*pi)) * integral_{-pi}^{pi} ((d+1)^2 - 4d*sin^2(theta/2))^k dtheta ~ ((d+1)/sqrt(d)) * ((d+1)/2)^n * M_n and overbudget sandwich max(0, (m/2)*((m/M_n)*R_{n,d} - (d^n+1))) <= B_{n,d}(m) <= (m(m-1)/(2(M_n-1)))*(R_{n,d} - d^n - 1), yielding B_{n,d}(m) = ((d+1)/(2*sqrt(d))) * m^2 * ((d+1)/2)^n * (1 + o(1)) whenever m/M_n >> sqrt(n) * (d/(d+1))^n."
+      }
+    ],
+    "prior_work_relation": {
+      "author": "Ryosuke Shiroshita",
+      "year": 2026,
+      "doi": "10.5281/zenodo.22773593",
+      "scope": "Resolves the square Hadamard budget m = n for n in {6,8,10,12,14,16} using the 0-4 minorant.",
+      "extension_here": "Resolves the overbudget regime m > n across 1 <= m <= M_n, establishing E(s^2)-vs-Haar separation for n >= 12, folded Johnson spectral monotonicity, Witt S(5,6,12)/Z_2 LP phase transition, and asymptotic Parseval collapse."
+    }
+  },
+  "verification": {
+    "command": "python scripts/verify_overbudget_designs.py",
+    "dependencies": "Python 3 standard library only (zero floating-point relaxations for core identities and certificates)",
+    "measured_runtime_seconds": 0.873,
+    "peak_traced_memory_mb": 0.181,
+    "status": "ALL_CHECKS_PASSED"
+  }
+}

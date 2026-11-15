@@ -1,0 +1,34 @@
+{
+  "title": "Overbudget Haar-Purity Subsystem Designs Beyond the Quadratic Threshold",
+  "description": "Extremal geometry of complex-Haar subsystem-purity fluctuations across arbitrary overbudget cut counts m > n via folded Johnson harmonic analysis, S(5,6,12)/Z_2 Delsarte LP duality, and Parseval asymptotic bounds, with zero-dependency exact integer and rational verification scripts.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-11-15",
+  "version": "1.0.0",
+  "language": "eng",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Bruges, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "keywords": [
+    "Haar-random quantum states",
+    "subsystem purity variance",
+    "folded Johnson scheme",
+    "Delsarte linear programming bound",
+    "Witt system S(5,6,12)",
+    "extended ternary Golay code",
+    "supersaturated design E(s^2)",
+    "exact arithmetic certificates"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22773593",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

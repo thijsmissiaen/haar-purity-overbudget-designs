@@ -1,0 +1,21 @@
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc
+
+# Rendered preview thumbnails
+paper/preview/
+
+# Exploratory research notes & draft backups
+research_notes/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
