@@ -2,6 +2,7 @@
 
 **Author:** Thijs Missiaen (Independent Researcher, Bruges, Belgium)  
 **ORCID:** [0009-0007-3678-0810](https://orcid.org/0009-0007-3678-0810)  
+**DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24244470.svg)](https://doi.org/10.5281/zenodo.24244470)  
 **Manuscript:** [paper/overbudget_haar_designs.pdf](paper/overbudget_haar_designs.pdf) (AMS-LaTeX source: [paper/overbudget_haar_designs.tex](paper/overbudget_haar_designs.tex), 11 pages)
 
 ## Overview

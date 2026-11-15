@@ -10,6 +10,7 @@ authors:
     email: "thijs.missiaen@gmail.com"
 date-released: "2026-11-15"
 version: "1.0.0"
+doi: "10.5281/zenodo.24244470"
 license: MIT
 repository-code: "https://github.com/thijsmissiaen/haar-purity-overbudget-designs"
 abstract: >-

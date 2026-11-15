@@ -3,6 +3,8 @@
   "package_name": "haar-purity-overbudget-designs",
   "title": "Overbudget Haar-Purity Subsystem Designs Beyond the Quadratic Threshold",
   "version": "1.0.0",
+  "doi": "10.5281/zenodo.24244470",
+  "zenodo_url": "https://zenodo.org/records/24244470",
   "author": {
     "name": "Thijs Missiaen",
     "orcid": "https://orcid.org/0009-0007-3678-0810",
